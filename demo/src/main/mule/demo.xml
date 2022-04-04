@@ -18,7 +18,7 @@ output application/JSON
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="3b9aa8e5-444b-4007-9ed2-d3bb309b3b81" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="3b9aa8e5-444b-4007-9ed2-d3bb309b3b81" message="hai"/>
 		<flow-ref doc:name="Flow Reference" doc:id="ad3ac6c2-56cf-4bef-b646-65a3c8b8c8b5" name="demoSub_Flow"/>
 	</flow>
 	<sub-flow name="demoSub_Flow" doc:id="b882c7c5-0e70-479a-9485-d1fe614a5239" >
