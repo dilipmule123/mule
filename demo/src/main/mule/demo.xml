@@ -23,5 +23,6 @@ payload]]></ee:set-payload>
 	</flow>
 	<sub-flow name="demoSub_Flow" doc:id="b882c7c5-0e70-479a-9485-d1fe614a5239" >
 		<logger level="INFO" doc:name="Logger" doc:id="a1444225-32ec-482a-8b64-53ff92a18e19" />
+		<logger level="INFO" doc:name="Logger" doc:id="b78882f8-58e7-46d1-ac0f-1f7297f35f63" message="how r u "/>
 	</sub-flow>
 </mule>
